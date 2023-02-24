@@ -1,25 +1,23 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Vocode",
   "logo": {
     "dark": "/logo/dark.png",
-    "light": "/logo/light.png"
+    "light": "/logo/dark.png"
   },
   "favicon": "/favicon.png",
-  "colors": {
-    "primary": "#0069ED",
-    "light": "#4D9CFF",
-    "dark": "#0050B4"
+  "modeToggle": {
+    "default": "dark",
+    "isHidden": true
   },
-  "topbarLinks": [
-    {
-      "name": "Documentation",
-      "url": "https://mintlify.com/docs"
-    }
-  ],
+  "colors": {
+    "primary": "#0092e0",
+    "light": "#0092e0",
+    "dark": "#0092e0"
+  },
   "topbarCtaButton": {
-    "name": "Get Started",
-    "url": "https://github.com/mintlify/starter"
+    "name": "Schedule call",
+    "url": "https://calendly.com/vocode/15min"
   },
   "anchors": [
     {
@@ -28,14 +26,9 @@
       "url": "api-reference"
     },
     {
-      "name": "Changelog",
-      "icon": "list",
-      "url": "https://mintlify.com"
-    },
-    {
-      "name": "Community",
-      "icon": "discord",
-      "url": "https://mintlify.com/community"
+      "name": "Contact",
+      "icon": "envelope",
+      "url": "mailto:kian@vocode.dev"
     }
   ],
   "navigation": [
@@ -58,8 +51,8 @@
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
-  }
+    "twitter": "https://twitter.com/vocodehq",
+    "website": "https://www.vocode.dev/"
+  },
+  "backgroundImage": "images/background-image.png"
 }
