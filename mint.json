@@ -21,11 +21,6 @@
   },
   "anchors": [
     {
-      "name": "API Reference",
-      "icon": "rectangle-terminal",
-      "url": "api-reference"
-    },
-    {
       "name": "Contact",
       "icon": "envelope",
       "url": "mailto:kian@vocode.dev"
@@ -33,21 +28,20 @@
   ],
   "navigation": [
     {
-      "group": "Home",
-      "pages": ["introduction", "features"]
+      "group": "Getting Started",
+      "pages": ["welcome"]
     },
     {
-      "group": "API Documentation",
-      "pages": ["api-reference/authentication"]
+      "group": "Vocode 101",
+      "pages": ["what-is-vocode", "how-it-works", "how-to-use-it"]
     },
     {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/update",
-        "api-reference/endpoint/delete"
-      ]
+      "group": "Python SDK",
+      "pages": ["python-quickstart"]
+    },
+    {
+      "group": "React SDK",
+      "pages": ["react-quickstart"]
     }
   ],
   "footerSocials": {
