@@ -4,7 +4,23 @@ description: "Get up and running using our Python SDK"
 ---
 
 # Installation
-`pip install vocode`
+Inside your bash, install the vocode package:
+```bash
+pip install vocode
+```
+
+To use your API key, do one of the following:
+
+1. Set it as an environment variable in a `.env` file:
+```
+VOCODE_API_KEY={YOUR_API_KEY}
+```
+
+2. Set it your code:
+```python 
+import vocode
+vocode.api_key = '{YOUR_API_KEY}'
+```
 
 ## Conversation Class
 
